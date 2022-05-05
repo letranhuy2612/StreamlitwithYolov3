@@ -106,7 +106,7 @@ def obj_detection(my_img):
 
 def main():
     
-    st.title("Welcome to Streamlit app")
+    st.title("Streamlit app")
     st.write("You can view real-time object detection done using YOLO model here. Select one of the following options to proceed:")
 
     choice = st.radio("", ("See an illustration", "Choose an image of your choice"))
